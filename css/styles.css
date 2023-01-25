@@ -188,7 +188,7 @@ header .container {
 }
 
 .benefits-item {
-    width: 100%;
+    min-width: 264px;
 }
 
 .benefits-list>li:not(:last-child) {
