@@ -222,9 +222,14 @@ header .container {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    text-align: justify;
 }
 
 /*--------MAIN-OUR-WORK--------*/
+
+.our-work {
+    margin-bottom: 120px;
+}
 
 .our-work-title {
     font-size: 36px;
@@ -233,6 +238,17 @@ header .container {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primary-title-color);
+    margin-bottom: 72px;
+}
+
+.our-work-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-work-list>li:not(:last-child) {
+    margin-right: 24px;
 }
 
 /*--------MAIN-OUR-TEAM--------*/
