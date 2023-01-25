@@ -352,6 +352,7 @@ header .container {
 
 .footer {
     background: var(--primary-title-color);
+    padding: 100px 0px;
 }
 
 .footer-logo {
@@ -370,4 +371,6 @@ header .container {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--other-white-color);
+    margin-top: 16px;
+    max-width: 264px;
 }
