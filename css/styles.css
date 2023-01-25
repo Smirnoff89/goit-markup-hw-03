@@ -178,6 +178,23 @@ header .container {
 
 /*--------MAIN-BENEFITS--------*/
 
+.benefits {
+    padding: 120px 0px;
+}
+
+.benefits-list {
+    display: flex;
+    margin: auto;
+}
+
+.benefits-item {
+    width: 100%;
+}
+
+.benefits-list>li:not(:last-child) {
+    margin-right: 24px;
+}
+
 .benefits-hidden-title {
     position: absolute;
     width: 1px;
@@ -197,6 +214,7 @@ header .container {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-title-color);
+    margin-bottom: 8px;
 }
 
 .benefits-after-title {
