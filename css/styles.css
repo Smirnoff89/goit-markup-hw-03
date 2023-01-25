@@ -301,7 +301,21 @@ header .container {
     border-radius: 0px 0px 4px 4px;
 }
 
-/*--------PORTFOLIO-MENU--------*/
+/*--------PORTFOLIO--------*/
+
+.portfolio {
+    padding: 96px 0px;
+}
+
+.portfolio-btns-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.portfolio-btns-list>li:not(:last-child) {
+    margin-right: 24px;
+}
 
 .portfolio-hidden-title {
     position: absolute;
@@ -323,6 +337,7 @@ header .container {
     color: var(--background-color-2);
     background: var(--light-gray-color);    
     border: 1px solid var(--other-white-color);
+    padding: 12px 24px;
 }
 
 .portfolio-btn:hover,
@@ -331,6 +346,31 @@ header .container {
     background: var(--background-color-1);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    border: none;
+}
+
+.portfolio-gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * 24px);
+    margin-top: calc(-1 * 24px)
+}
+
+.portfolio-gallery-list > .gallery-item {
+    flex-basis: calc(100% / 3 - 24px);
+    margin-left: 24px;
+    margin-top: 48px;
+}
+
+.portfolio-card {
+    display: block;
+}
+
+.card-content {
+    padding: 32px 0px;
+    background: var(--primary-white-color);
+    border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
 .portfolio-gallery-title {
@@ -339,6 +379,8 @@ header .container {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-title-color);
+    margin-left: 16px;
+    margin-bottom: 8px;
 }
 
 .portfolio-gallery-after-title {
@@ -346,6 +388,7 @@ header .container {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    margin-left: 16px;
 }
 
 /*--------FOOTER--------*/
