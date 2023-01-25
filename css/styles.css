@@ -7,6 +7,34 @@
     --light-gray-color: #F4F4FD;
     --other-white-color: #E7E9FC;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+ul, ol {
+    margin: 0px;
+    padding-left: 0px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1128px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
 body {
     font-family: 'roboto', sans-serif;
     background-color: var(--primaty-white-color);
