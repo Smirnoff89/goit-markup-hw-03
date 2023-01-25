@@ -64,6 +64,15 @@ body {
 
 /*--------HEADER--------*/
 
+.header {
+    border-bottom: 1px solid var(--other-white-color);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
 .header-logo {
     font-family: 'Raleway';
     font-size: 18px;
@@ -73,6 +82,16 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-title-color);
+    display: block;
+    margin-right: 76px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list>li:not(:last-child) {
+    margin-right: 40px;
 }
 
 .nav-link {
@@ -81,11 +100,17 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-title-color);
+    padding: 24px 0px;
 }
 
 .nav-link:hover,
 .nav-link:focus {
     color: var(--background-color-1);
+}
+
+.address-list {
+    display: flex;
+    margin-left: auto;
 }
 
 .address-link {
